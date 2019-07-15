@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex</title>
+	<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <style type="text/css">
+      	.containerBack{
+      		background-color: gray;
+      	}
+      	.containerr {
+ 			 display: flex;
+ 			 flex-grow: 1;
+ 			  /* or inline-flex */
+		}
+		.item{
+			flex-grow: 1;
+			width: 5px;
+		}
+		@media screen and (min-width: 800px) {
+		  .item {
+		    
+		    width: 10%;
+ 		 }
+
+      </style>
+</head>
+<body>
+	<div class="container containerBack ">
+		<div class="containerr">
+		  <div class="p-2 bg-primary item">Flex item 1</div>
+		  <div class="p-2 bg-success item">Flex item 2</div>
+		  <div class="p-2 bg-danger item">Flex item 3</div>
+
+		  <div class="p-2 bg-primary item">Flex item 1</div>
+		  <div class="p-2 bg-success item">Flex item 2</div>
+		  <div class="p-2 bg-danger item">Flex item 3</div>
+		  <div class="p-2 bg-primary item">Flex item 1</div>
+		  <div class="p-2 bg-success item">Flex item 2</div>
+		  <div class="p-2 bg-danger item">Flex item 3</div>
+		  <div class="p-2 bg-primary item">Flex item 1</div>
+		  <div class="p-2 bg-success item">Flex item 2</div>
+		  <div class="p-2 bg-danger item">Flex item 3Flex item 3Flex item 3Flex item 3Flex item 3Flex item 3Flex item 3Flex item 3Flex item 3Flex item 3</div>
+		  <div class="p-2 bg-primary item">Flex item 1</div>
+		  <div class="p-2 bg-success item">Flex item 2</div>
+		  <div class="p-2 bg-danger item">Flex item 3</div>
+
+	</div>
+	</div>
+
+</body>
+</html>
